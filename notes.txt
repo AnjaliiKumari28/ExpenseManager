@@ -1,0 +1,101 @@
+Backend
+
+1. Balance
+2. CRUD on expenses
+3. CRUD on income
+
+
+
+BASIC Features
+1. Register user
+2. Login user
+
+variable balace
+3. Add expenses
+4. delete 
+5 read
+6 update
+
+
+
+USER TABLE
+1. Name
+2. email
+3. password
+4. age
+
+
+
+
+All REST APIs has a basic structre
+
+1. header -- stores additional info - metadata or credentials
+2. body -- stores content
+
+
+
+
+// Approaches
+
+1. same table
+
+// user_id      income      incomeSource     incomeTime      expense     expenseSource      expenseTime     balance
+
+4
+3
+2                  0
+1
+
+Dark theme light theme???
+
+
+responsive for all screens??????? haa
+
+// Fearures
+
+DASHBOARD
+1. balance
+2. income show & add
+3. expense show & add
+4. overall income expense balance graph
+5. category wise expense income pie chart
+6. last 10 transactions
+
+
+
+how to make design responsive
+
+1.
+case 1 width > height -- landscape - flex direction row
+case 2 height > width -- portrait - flex direction column
+
+2.
+diemension fixed value X 
+relavtive value - width of screen height of screen
+
+3. images ko max width dena
+
+
+PAGES
+1. LANDING
+2. SIGN IN
+3. SIGN UP
+4. DASHBOARD
+5. PROFILE
+
+
+react-router-dom
+tailwind
+material ui
+
+
+
+
+// REACT-frontend --> all changes or new files/folders in 'src' folder. rest no chher chhar.
+                        App.jsx mein routing.
+                        components mein reusable parts of UI.
+                        pages mein different pages of website.
+                        assets :- sara images, fonts, video. jo website pr dikhega use hoga
+
+
+// Node + express backed -- mane any folder wherever you want. But keep 'index.js' file in root directory and dont do chher chhar with those files which are automatically created -- package.json, package-lock.json node modules.
